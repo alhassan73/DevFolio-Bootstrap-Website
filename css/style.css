@@ -183,7 +183,7 @@ bottom: 0;
 /***** End  Services section *****/
 /***** numbers-section *****/
 .numbers {
-    background-image: url(/img/counters-bg.jpg);
+    background-image: url(../img/counters-bg.jpg);
     background-attachment: fixed;
     color: var(--fouth-color);
 }
@@ -220,7 +220,7 @@ bottom: 0;
 /***** End work-section *****/
 /***** slider *****/
 .slider {
-    background-image: url(/img/overlay-bg.jpg);
+    background-image: url(../img/overlay-bg.jpg);
     background-position: center center;
     background-attachment: fixed;
     color: var(--fouth-color);
@@ -269,7 +269,7 @@ bottom: 0;
 /***** End blog-section *****/
 /***** contact-block *****/
 #contact{
-    background-image: url(/img/overlay-bg.jpg);
+    background-image: url(../img/overlay-bg.jpg);
     background-position: center center;
     background-attachment: fixed;
     box-shadow: 0px 8px 10px #0000007e;
