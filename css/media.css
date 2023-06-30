@@ -1,0 +1,110 @@
+@media  (max-width: 991px) {
+    :root{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 26;
+    }
+    .navbar-brand {
+        font-size: 30px !important;
+    }
+    .navbar-nav{
+        background-color: white;
+        height: 50vh;
+    }
+    .navbar-nav li:first-child{
+       color: #0078ff !important;
+    }
+    .nav-item{
+        color: black !important;
+        font-size: 18px !important;
+        padding-block: calc(var(--padding) - 10px );
+    } 
+
+    .nav-item:hover > .dropdown-menu{
+        position: absolute;
+        width: 100%;
+        font-size: 18px;        
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        font-size: 18px;
+    }
+    .first , .second{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #blog .badge {
+        padding: .625rem .75rem;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #about .progress-value{
+        font-size: 16px;
+    }
+    #about .progress {
+        height: 12px;
+    }
+    #contact .form-inputs button {
+        padding-block: 15px;
+        width: 150px !important;
+    }
+}
+    
+   
+@media(max-width:767px){
+    :root{
+        font-size: 16px;
+    }
+    #about picture , #about .info{
+        width: 50%;
+    }
+    #about .about-info {
+        width: 100%;
+    }
+
+    #blog .card {
+        width: 100%;
+    }
+    #blog .cards-container {
+        row-gap: 20px;
+    }
+    #contact .row >* {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:576px){
+    :root{
+        font-size: 16px;
+    }
+    
+    h1{
+        font-size: 45px;
+    }
+    .typed{
+        font-size: 25px;
+    }
+    .numbers .row>*{
+        width: 100%;
+    }
+    .numbers .counter-box{
+        padding: 0px;margin:0px;
+    }
+    .numbers .row .counter-box .icon-circle{
+        margin: 0px;
+    }
+    .navbar-nav{
+        background-color: white;
+        height: 60vh;
+    }
+    #contact .form-inputs button {
+        padding-block: 10px;
+        width: 170px !important;
+    }
+}
