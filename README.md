@@ -6,4 +6,4 @@ design by Media query breakpoints and BS
 grid sysrem
 <br>
 <hr>
-<a href="https://alhassan73.github.io/Devfolio-bootstrap-website/">Visit now</a>
+<a href="https://devfolio-bootstrap-website.vercel.app/">Visit now</a>
